@@ -14,6 +14,7 @@ body {
 
 
 .App-header {
+  background-color: rgba(0, 0, 0, 0.792);
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -31,35 +32,43 @@ body {
   width: 33%;
   height: 330px;
   border-radius: 13px;
-  background-color: blue;
 }
 h3{
   padding-top: 20px;
-  font-size: 30px;
-    font-weight: 500;
+  font-size: 37px;
+  font-weight: 700;
 }
 
 .myform{
-  width: 300px;
-  height: 32px;
+  width: 350px;
+  height: 48px;
   text-decoration: none;
   border-radius: 4px;
-  margin-top: 30px;
+  margin-top: 20px;
+  text-align: center;
+  font-size: 25px;
 }
 
 .increbutt{
-  width: 30px;
-  float: right;
+  width: 52px;
+  height: 50px;
+  font-size: 29px;
+  border-radius: 5px;
+  font-weight: 600;
+  margin-left: 10px;
+  background-color: #50c159;
+  color: white;
+  
 }
 
-.main-buttonsbox{
-  width: 48%;
-  height: 40px;
-  margin: 0 auto;
-  margin-top: 10px;
-}
-
-.decrebutt{
-  width: 30px;
-  float: left;
+.decrebutt{  
+  width: 52px;
+  height: 50px;
+  font-size: 30px;
+  border-radius: 5px;
+  margin-right: 10px;
+  text-decoration: none;
+  font-weight: 600;
+  background-color: #50c159;
+  color: white;
 }
